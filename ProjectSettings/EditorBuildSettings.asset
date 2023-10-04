@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestNorth.unity
     guid: 2cb374fe7d54346e98e841ce0d5fbeea
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 265f297e8f7364df589496ae1146e646
   m_configObjects: {}
