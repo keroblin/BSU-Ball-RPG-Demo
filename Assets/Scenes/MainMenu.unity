@@ -157,10 +157,10 @@ RectTransform:
   - {fileID: 929955305}
   m_Father: {fileID: 387330508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.29671693}
-  m_AnchoredPosition: {x: 0.5, y: 12}
-  m_SizeDelta: {x: -687, y: -100}
+  m_AnchorMin: {x: 0.34800002, y: 0.056546103}
+  m_AnchorMax: {x: 0.666, y: 0.3223617}
+  m_AnchoredPosition: {x: -3.5000076, y: 2.151001}
+  m_SizeDelta: {x: -61.820587, y: -18.302902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26020673
 MonoBehaviour:
@@ -658,8 +658,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.78612906}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.776306, y: -13.335495}
-  m_SizeDelta: {x: -518.4506, y: -32.6711}
+  m_AnchoredPosition: {x: 0.00024986, y: 0.00010681152}
+  m_SizeDelta: {x: -0.00048828, y: -0.0002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350144529
 MonoBehaviour:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.3326721, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1444,10 +1444,10 @@ RectTransform:
   - {fileID: 568520336}
   m_Father: {fileID: 1925920858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.07345871}
-  m_AnchorMax: {x: 1, y: 0.6766696}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -551.367, y: 0}
+  m_AnchorMin: {x: 0.254, y: 0.07345871}
+  m_AnchorMax: {x: 0.744, y: 0.72654617}
+  m_AnchoredPosition: {x: 0.50024414, y: -7}
+  m_SizeDelta: {x: -75.63281, y: -14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687020572
 MonoBehaviour:
@@ -1509,8 +1509,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.78612906}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.7788086, y: -13.335449}
-  m_SizeDelta: {x: -517.94055, y: -32.6711}
+  m_AnchoredPosition: {x: 0.0010071, y: 0}
+  m_SizeDelta: {x: -0.002, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726158270
 MonoBehaviour:
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2632,6 +2632,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2141818453}
   - component: {fileID: 2141818452}
+  - component: {fileID: 2141818455}
+  - component: {fileID: 2141818454}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -2683,10 +2685,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 180764731}
   m_HandleRect: {fileID: 1941623519}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2712,6 +2714,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2141818454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141818451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 00e51ca8d6d714d1ead3980b03afc35c, type: 2}
+--- !u!114 &2141818455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141818451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
