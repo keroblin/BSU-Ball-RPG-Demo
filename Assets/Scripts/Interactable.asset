@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Interactable
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"On
+      Interacted","label":null,"summary":"Fired when the object is interacted with","hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"System.String","key":"Hint","label":null,"summary":"What
+      text to display when in range, if empty it won''t show","hideLabel":false},{"hasDefaultValue":false,"defaultValue":{"$content":false,"$type":"System.Boolean"},"_type":"System.Boolean","key":"InteractOnEnter","label":null,"summary":"Should
+      we interact as soon as we walk in? If true, it will trigger on interact if
+      we walk in, if false, it will expect us to press ''e''.","hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":7.250061,"y":-1.250153},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-423.0,"y":-118.0},"guid":"1daf720c-56fe-4983-8764-8bce43a8692b","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":37.0,"y":-111.0},"guid":"994b6954-897d-4786-9776-d13fb7b47811","$version":"A","$type":"Unity.VisualScripting.GraphOutput"}],"$version":"A"}}'
+    _objectReferences: []
