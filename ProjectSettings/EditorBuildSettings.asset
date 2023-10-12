@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Initialiser.unity
+    path: Assets/Scenes/LevelInitialiser.unity
     guid: c831d768dbf214e32b4428b3d216d393
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ForestOverworld.unity
     guid: 2b0b226d818d34ea8a00a55313aee515
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Dungeon1-1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/ForestNorth.unity

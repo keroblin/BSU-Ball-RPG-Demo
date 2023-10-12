@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlayerEntered
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Entered","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":232.9999,"y":-69.25003},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-202.0,"y":-53.0},"guid":"64243e6b-0ac3-4871-8920-cfc2eee52ab5","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"10"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":32.0,"y":-50.0},"guid":"cdb30594-cd28-46ce-83f8-85ffed745472","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"defaultValues":{},"position":{"x":223.0,"y":-47.0},"guid":"de1e31c4-d7f9-4889-b8e3-cd9a832b66e6","$version":"A","$type":"Unity.VisualScripting.If","$id":"16"},{"defaultValues":{},"position":{"x":374.0,"y":-48.0},"guid":"2e01cc2c-7605-4a8f-9aff-d9a8bedb7ef6","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"18"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"03c380f6-5f05-49c5-8430-bd5bdc9a0da8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"Entered","guid":"57bbed55-efdb-4ed5-a037-0259d868e8af","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"c6797072-42f5-4514-a519-44e9c8797d5a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"collider","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"3133e021-fb2e-4631-8f80-6d8e7dd5817e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"dd24d782-c35b-457b-bf88-6e5b721de605","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":73.0,"yMin":-181.0,"xMax":297.0,"yMax":-81.0},"title":"I
+      check for the player a lot!","body":"I made this script to keep everything
+      clean more than anything, hope it helps!","colorTheme":"Classic","guid":"1ec619d5-5e9d-4314-bff3-3f3c48978ba4","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
