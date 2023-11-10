@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Teleporter
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Teleporter","summary":"Moves
+      Player to the specified Vector3 Location object variable. Ensure to consider
+      the Player''s height! Set slightly above the floor if unsure.","pan":{"x":798.438,"y":-36.56384},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"EnterEventName":{"$content":"OnPlayerEnter","$type":"System.String"},"ExitEventName":{"$content":"OnPlayerExit","$type":"System.String"},"TagToCheck":{"$content":"Player","$type":"System.String"}},"position":{"x":-107.0,"y":-51.0},"guid":"a9bf2dfa-edc2-4dad-b0bb-5b54240c14f1","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":573.0,"y":-63.0},"guid":"5ad91a5b-1781-4a05-a03d-a8e9657e20a0","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Location","$type":"System.String"},"object":null},"position":{"x":222.0,"y":-205.0},"guid":"28e677ef-2030-4df1-984f-14551ba83694","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":798.0,"y":-61.0},"guid":"33727c16-230a-4e4d-8fa9-073b600b4cd7","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"Entered","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"df377c6f-5ee4-4aed-97d9-d9b703dce4e6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"assigned","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"ce5185d9-8e70-44dd-94e3-dfc73c29ce71","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"240c5e06-5e02-45d4-862c-df2649f36ece","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"PlayerObj","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"42afed7f-e6d1-4f71-8aa5-a7ed312416df","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"PlayerObj","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"665faf4d-5f25-4dc7-9cd3-32eb979676e0","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b8e5e726771094685ae27832582e81cf, type: 2}

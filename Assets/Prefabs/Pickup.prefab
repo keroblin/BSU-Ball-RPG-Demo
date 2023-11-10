@@ -164,12 +164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":458.2497,"y":-77.62411},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"CanInteract":{"$content":true,"$type":"System.Boolean"},"Required
-      input":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":-240.0,"y":-10.0},"guid":"4acee208-d4f8-493a-a280-95feaccb6adf","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"PickUp","$type":"System.String"},"target":null},"position":{"x":314.0,"y":-222.0},"guid":"b2a4da89-8c25-429d-b0d8-393cdf4cdcac","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"defaultValues":{},"position":{"x":192.0,"y":-88.0},"guid":"1e4ecb7b-840f-4d69-b69a-d978f1a259d4","$version":"A","$type":"Unity.VisualScripting.This","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Player","$type":"System.String"}},"position":{"x":33.0,"y":-163.0},"guid":"3c35bc75-3a44-446e-a9de-6c64e542bfcd","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"17"},{"sourceUnit":{"$ref":"10"},"sourceKey":"On
-      Interacted","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"b4363c86-72b7-4ab0-afdb-9f4f413e6de7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"self","destinationUnit":{"$ref":"13"},"destinationKey":"argument_0","guid":"16958adf-d8e2-4af0-841f-90aaec7aaa93","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"c19fb0dd-3083-4082-aa72-db972945fc45","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: f12a59f78927f40a48e1bbd912c6d7a1, type: 2}
-    - {fileID: 398900021374774266, guid: 537ea3183541c4212b6bc7c4e6b65ecc, type: 3}
+    - {fileID: 11400000, guid: 1fff929a56beac449be68d6c46cee4eb, type: 2}
 --- !u!135 &6367521270772023359
 SphereCollider:
   m_ObjectHideFlags: 0

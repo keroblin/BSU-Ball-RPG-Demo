@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CustomiseablePressurePad
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Base
+      Pressure Pad","summary":"Click convert to add your own embedded functionality","pan":{"x":133.0,"y":42.63437},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-14.0,"y":-4.0},"guid":"3c5e3ad3-c26f-4cc8-a7fd-8dc70876d8af","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"type":"UnityEngine.BoxCollider","value":{"$content":1,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-173.0,"y":-36.0},"guid":"4d151315-ec4c-484b-8071-0019aa1e4e67","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"12"},{"type":"UnityEngine.BoxCollider","value":{"$content":2,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-225.0,"y":66.0},"guid":"b822cd51-4e55-4e62-9576-d8a716b2c87c","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"PadCollider","guid":"8aadb104-256b-4fef-b859-db67e7fedc68","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"Trigger
+      Collider","guid":"b89dbf07-c030-4fd1-a387-d793a1b8ec3a","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e0ac89b14c7d844f4a266f730475d1f5, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
