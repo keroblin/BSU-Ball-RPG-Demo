@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/LevelInitialiser.unity
+    path: Assets/Scenes/Demo/LevelInitialiser.unity
     guid: c831d768dbf214e32b4428b3d216d393
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Demo/MainMenu.unity
     guid: c216377c406304dbabbc12953a1b059a
   - enabled: 1
-    path: Assets/Scenes/ForestOverworld.unity
+    path: Assets/Scenes/Demo/Overworld.unity
     guid: 2b0b226d818d34ea8a00a55313aee515
   - enabled: 1
-    path: Assets/Scenes/Dungeon1-1.unity
+    path: Assets/Scenes/Demo/Dungeon1-1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/ForestNorth.unity
     guid: 2cb374fe7d54346e98e841ce0d5fbeea
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/Demo/Credits.unity
     guid: 265f297e8f7364df589496ae1146e646
   m_configObjects: {}
