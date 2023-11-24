@@ -14559,6 +14559,94 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5093442136627176435, guid: 2fb38dc66ea165041a5129cf799b1594, type: 3}
   m_PrefabInstance: {fileID: 358525518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1906085662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906085666}
+  - component: {fileID: 1906085665}
+  - component: {fileID: 1906085664}
+  - component: {fileID: 1906085663}
+  m_Layer: 0
+  m_Name: Flamethrower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1906085663
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906085662}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d856324df3a794ca19f4aeb0fcff5a50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1906085664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906085662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5a8426bc8abed45f7acacb1aa05ebefc, type: 2}
+--- !u!114 &1906085665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906085662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Animator","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1906085663}
+--- !u!4 &1906085666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906085662}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.79538655, y: 8.022698, z: -0.97569555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1916762157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16719,7 +16807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Damage":{"$content":10000.0,"$type":"System.Single"},"Type":{"$content":"Water","$type":"System.String"}},"position":{"x":-177.0,"y":-50.0},"guid":"be746f72-f0ab-4cde-9d29-9de734eb6b9e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Damage":{"$content":10000.0,"$type":"System.Single"},"Type":{"$content":"Water","$type":"System.String"},"CanAttack":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-177.0,"y":-50.0},"guid":"be746f72-f0ab-4cde-9d29-9de734eb6b9e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 11400000, guid: 486a067a7dbde4008ad94d507efc1dfb, type: 2}
 --- !u!54 &1364162395522755654
@@ -16762,7 +16850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Damage":{"$content":10000.0,"$type":"System.Single"},"Type":{"$content":"Water","$type":"System.String"}},"position":{"x":-177.0,"y":-50.0},"guid":"be746f72-f0ab-4cde-9d29-9de734eb6b9e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Damage":{"$content":10000.0,"$type":"System.Single"},"Type":{"$content":"Water","$type":"System.String"},"CanAttack":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-177.0,"y":-50.0},"guid":"be746f72-f0ab-4cde-9d29-9de734eb6b9e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 11400000, guid: 486a067a7dbde4008ad94d507efc1dfb, type: 2}
 --- !u!1 &1706655949954047557
@@ -19800,3 +19888,4 @@ SceneRoots:
   - {fileID: 31985267}
   - {fileID: 2097628849}
   - {fileID: 5897708649200795183}
+  - {fileID: 1906085666}
