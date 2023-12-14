@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ItemBase
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"ItemBase","summary":"Click
+      convert to add details.","pan":{"x":127.2511,"y":59.74899},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":50.0,"y":-12.0},"guid":"ffb7b810-ce43-4436-b30d-e723c16fe2d8","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-129.0,"y":-12.0},"guid":"8524dd41-3a39-4c76-aa3f-75f79db800a4","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":242.0,"y":-12.0},"guid":"159b7e39-9ebc-4de6-a31f-7bfd738f596f","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"ItemName","$type":"System.String"},"object":null},"position":{"x":-91.0,"y":126.0},"guid":"8d074a97-0c70-417d-aab2-f0ef745b4201","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Entered","destinationUnit":{"$ref":"9"},"destinationKey":"Obtain","guid":"099e5014-6f83-4851-878d-97e36fc4512f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"Finished","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"f360b232-7f6c-4e06-b1dd-cfb84276a705","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"ItemName","guid":"240ccdc0-dd34-49e5-811a-b06082f115e7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5113623d1c452497d9c88f07f2e11c01, type: 2}
+    - {fileID: 11400000, guid: e2670431bc2204bc187e694414aeb961, type: 2}
